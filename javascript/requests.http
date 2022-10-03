@@ -1,0 +1,16 @@
+### Add to Animal Tree
+POST http://localhost:3001/tree
+content-type: application/json
+
+{   
+    "parent": 0,
+    "label": "root"
+}
+
+### Get Animal Tree
+GET http://localhost:3001/tree
+content-type: application/json
+
+### Reset Animal Tree (reset table that contains animal Tree Data)
+GET http://localhost:3001/resetTree
+content-type: application/json
